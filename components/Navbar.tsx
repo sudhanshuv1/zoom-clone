@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import MobileNav from './MobileNav'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
           alt = "Yoom logo"
           className = "max-sm:size-10"
         />
-        <p claassName="text-[26px] font-extrabold text-white max-sm:hidden">Yoom</p>
+        <p className="text-[26px] font-extrabold text-white max-sm:hidden">Yoom</p>
       </Link>
 
       <div className="flex-between gap-5">
